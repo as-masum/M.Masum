@@ -14,7 +14,7 @@ export const PROJECTS = [
     image: project1,
     description:
       `Worked as a Backend developer responsible for web application i.e. LearningCraft App. There were around 10 modules in this app. Worked on creating the REST APIs for crud operations of these modules`,
-    technologies: ["Nodejs", "Express", "PostgreSQL", "Postman"],
+    technologies: ["Nodejs", "Expressjs", "PostgreSQL"],
   },
   {
     title: "Simple E-Commerce Website",
