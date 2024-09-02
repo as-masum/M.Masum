@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/ecomm.png";
-import project3 from "../assets/projects/portfolio.png";
-import project4 from "../assets/projects/rest_apis.png";
+import eLearning from "../assets/projects/elearning.png";
+import medBill from "../assets/projects/medbill.png";
+import eComm from "../assets/projects/ecomm.png";
+import portfolio from "../assets/projects/portfolio.png";
+import restApi from "../assets/projects/rest_apis.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB as well as front-end technologies like HTML, CSS, React. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -11,15 +12,23 @@ export const ABOUT_TEXT = `I have worked with a variety of technologies, includi
 export const PROJECTS = [
   {
     title: "LearningCraft App",
-    image: project1,
+    image: eLearning,
     description:
       `Worked as a Backend developer responsible for web application i.e. LearningCraft App. There were around 10 modules in this app. Worked on creating the REST APIs for crud operations of these modules`,
     technologies: ["Nodejs", "Expressjs", "PostgreSQL"],
     link:""
   },
   {
+    title: "Medical Bill PDF App",
+    image: medBill,
+    description:
+      "An application for the billing process by generating detailed bill PDFs and sending them directly to clients via WhatsApp.send them directly via WhatsApp using Twilio's API.The project integrates Node-ADODB for Access database interactions Twilio's reliable messaging service guarantees timely and secure delivery of bills to clients.",
+    technologies: ["Nodejs", "Reactjs", "AccessDB"],
+    link:"https://github.com/as-masum/medical_pdf_bill_using_nodejs_express_react_and_twillio_api"
+  },
+  {
     title: "Simple E-Commerce Website",
-    image: project2,
+    image: eComm,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["React", "Node.js", "MongoDB", "Postman"],
@@ -34,7 +43,7 @@ export const PROJECTS = [
   // },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["Reactjs", "TailwindCSS"],
@@ -42,7 +51,7 @@ export const PROJECTS = [
   },
   {
     title: "Node Rest API",
-    image: project4,
+    image: restApi,
     description:
       `Built a CRUD Rest APIs to register User details utilizing the NodeJs(Express) and PostgreSQL. Implemented user authentication and authorization for secure APIs.`,
     technologies: ["Nodejs", "Express", "PostgreSQL"],
