@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-3">
       <div className="flex flex-shrink-0">
-        <a href="">
+        <a href="#">
           <h1 className=" text-3xl font-bold underline">M. Másum</h1>
         </a>
         {/* <img src={logo} alt="logo" /> */}
